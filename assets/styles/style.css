@@ -1,0 +1,95 @@
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+strong {
+  font-weight: bold;
+}
+body {
+  min-width: 50rem;
+color: white;
+  background-color: black;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  font-family: "Rubik", sans-serif;
+  padding: 0.5rem;
+  overflow-y: visible;
+  overflow-x: visible;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+h1 {
+  color: white;
+  font-size: 4.25rem;
+  margin-bottom: 1.5rem;
+}
+p {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 200;
+  max-width: 40rem;
+}
+nav {
+display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  background: rgb(94, 136, 73);
+  border: 2px solid hsla(0, 0%, 100%, 0.349);
+  box-shadow: 0px 5px 0px rgb(58, 88, 44);
+  border-radius: 8px;
+  padding: 0.5rem 3rem;
+  transition: all 0.1s;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+nav a:hover {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+.red {
+  color: lightpink;
+}
+.green {
+  color: lightgreen;
+}
+
+.ip {
+  color: white;
+  text-decoration: none;
+  border: 3px solid hsl(0, 100%, 50%);
+  -webkit-animation: rainbow 7s infinite alternate;
+  border-radius: 8px;
+  padding: 0.5rem 3rem;
+  transition: all 0.1s;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+@-webkit-keyframes rainbow {
+  0% {border-color: #B22222;}
+  14% {border-color: #FF69B4;}
+  28% {border-color: #FF4500;}
+  42% {border-color: #FFD700;}
+  56% {border-color:  #DA70D6;}
+  70% {border-color: #32CD32;}
+  84% {border-color: #7FFFD4;}
+  100% {border-color: #4169E1;}
+}
+
